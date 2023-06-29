@@ -1,0 +1,32 @@
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: seashell;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .logo {
+    margin: 34px auto -10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .search {
+    margin: 36px 100px 10px;
+  }
+  nav ul {
+    justify-content: center;
+    flex-direction: column;
+  }
+  ul {
+    height: 0px;
+    margin: 8px auto 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul li{
+    margin: 10px auto -9px auto;
+  }
+  .slider{
+    height: 50vh;
+  }
+}
